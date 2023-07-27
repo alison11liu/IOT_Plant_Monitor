@@ -35,7 +35,7 @@ My final milestone was finishing everything up and making a setup that can not o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My second milestone was mostly getting familiar with Blynk, being able to connect my Arduino board to Blynk, editing the dashboard etc. A big step I took for my project was actually trying it out. I put my soil moisture sensor in a plant and had the temperature, humidity, soil moisture etc. data to be displayed on Blynk. 
+My second milestone was mostly getting familiar with Blynk and using the Arduino IDE, as this is my first time using such programs. I started off by connecting my Arduino board to Blynk, then I started adding virtual pins into my Blynk dashboard. A big step I took for my project was actually trying it out. I inputted code into the Arduino IDE, then I put my soil moisture sensor in a plant and had the temperature, humidity, soil moisture etc. data to be displayed on Blynk. 
 
 # First Milestone
 
@@ -43,7 +43,7 @@ My second milestone was mostly getting familiar with Blynk, being able to connec
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My first milestone was first building my circuit with all the necessary parts. Then I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. An issue I faced was that I had to order an adapter for my WiFi module in order for it to be plugged onto the breadboard as without it, my code would not run.
+My first milestone was first building my circuit with all the necessary parts. I checked that my build did not short circuit and that all of my components were placed in the correct spots. Then I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. An issue I faced was that I had to order an adapter for my WiFi module in order for it to be plugged onto the breadboard as without it, my code would not run.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -72,7 +72,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Elegoo Uno R3 Board with USB Cable | Microcontroller | $15.99 | <a href="[https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?keywords=elegoo+uno+r3+board&qid=1690488175&sr=8-3](https://www.amazon.com/ELEGOO-Controller-ATmega328P-Compatible-Arduino/dp/B0B6VV7MS7/ref=sr_1_4?keywords=elegoo+uno+r3+board&qid=1690488247&sr=8-4)/"> Link </a> |
 | Solderless Breadboards | Base for all the components | $9.99 for 4pc | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6](https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH/ref=sr_1_3?crid=1KRC08FNZVCYJ&keywords=breadboard&qid=1690488491&sprefix=breadboar%2Caps%2C198&sr=8-3)/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| ESP8266 Module | Enables the microcontroller to connect to WiFi | $8.99 for 3 pc | <a href="https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH/ref=sr_1_3?crid=1KRC08FNZVCYJ&keywords=breadboard&qid=1690488491&sprefix=breadboar%2Caps%2C198&sr=8-3/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
