@@ -21,7 +21,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My final milestone was finishing everything up and making a setup that can not only track the plant's information but also pump water into the plant. For your final milestone, explain the outcome of your project. Key details to include are:
+My final milestone was finishing everything up and making a setup that can not only track the plant's information but also pump water into the plant. I had to order a tube that can connect to the water pump to be able to carry water from a bowl of water into the plant itself. For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
@@ -35,7 +35,7 @@ My final milestone was finishing everything up and making a setup that can not o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My second milestone was mostly getting familiar with Blynk and using the Arduino IDE, as this is my first time using such programs. I started off by connecting my Arduino board to Blynk, then I started adding virtual pins into my Blynk dashboard. A big step I took for my project was actually trying it out. I inputted code into the Arduino IDE, then I put my soil moisture sensor in a plant and had the temperature, humidity, soil moisture etc. data to be displayed on Blynk. 
+My second milestone was mostly getting familiar with Blynk and using the Arduino IDE, as this is my first time using such programs. I started off by connecting my Arduino board to Blynk, then I started adding virtual pins into my Blynk dashboard. A big step I took for my project was actually trying it out. I inputted code into the Arduino IDE, then I put my soil moisture sensor in a plant and had the temperature, humidity, soil moisture etc. data to be displayed on Blynk. You are also able to turn on the water pump by pressing the on and off button on the Blynk dashboard. The main issue that I had to fix for this milestone was getting my Arduino Uno online in Blynk, which was mostly due to my ESP8266 wifi module.
 
 # First Milestone
 
@@ -43,7 +43,7 @@ My second milestone was mostly getting familiar with Blynk and using the Arduino
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My first milestone was first building my circuit with all the necessary parts. I checked that my build did not short circuit and that all of my components were placed in the correct spots. Then I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. An issue I faced was that I had to order an adapter for my WiFi module in order for it to be plugged onto the breadboard as without it, my code would not run.
+My first milestone was first building my circuit and making sure that all the necessary parts were wired correctly. Then, I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. A problem I faced was that my ESP8266 chip could not be plugged directly into the breadboard, so I had to use male to female wires to manually wire the chip in. It was very frustrating and took a lot of time get the wifi module to work, but with help I managed to get it to work and then I could continue with my project.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
