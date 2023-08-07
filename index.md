@@ -1,12 +1,6 @@
 # IoT Plant Monitor
 This project is essentially a smart watering system that can detect the current temperature, humidity, intensity of light, and soil moisture of a plant of your choosing and displays them on Blynk. You are also able to pump water into the plants by turning on the Switch toggle in Blynk. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Alison L | Cupertino High School | Computer Science/Product Design | Incoming Sophomore
@@ -253,6 +247,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | ESP8266 ESP-01 Breakout Board | Adapter to connect the ESP8266 to the breadboard | $8.99 for 3 pc | <a href="https://www.amazon.com/DIYmall-ESP8266-Breakout-Breadboard-Transceiver/dp/B01G6HK3KW/ref=sr_1_9?crid=30N8YU6Z9RWPS&keywords=esp8266+wifi+module+adapter&qid=1691435590&sprefix=esp8266+wifi+module+adapter%2Caps%2C176&sr=8-9/"> Link </a> |
 | Soil Moisture Sensor | Sensor to track the plant's soil moisutre | $11.99 for 5 pc | <a href="https://www.amazon.com/Capacitive-Moisture-Corrosion-Resistant-Detection/dp/B07SYBSHGX/ref=sr_1_16?crid=1BVQIFJEXQ443&keywords=soil+moisture+sensor&qid=1691435304&sprefix=soil+moisutre+senso%2Caps%2C167&sr=8-16/"> Link </a> |
 | DHT11 Humidity Sensor | Sensor to track the temperature and humidity of the room | $9.99 for 5 pc | <a href="https://www.amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0/ref=sr_1_3?crid=1QIFNX5NG5UNO&keywords=dht11+temperature+and+humidity+sensor&qid=1691435425&sprefix=dht11%2Caps%2C214&sr=8-3/"> Link </a> |
+| Photoresistor | Sensor to track illumination | $5.99 for 30 pc | <a href="https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_3?crid=194ASRDDU8448&keywords=photoresistor&qid=1691435786&sprefix=photo+resistor%2Caps%2C227&sr=8-3/"> Link </a> |
+| Motor Driver | Connects the water pump to the Arduino | $11.49 for 4 pc | <a href="https://www.amazon.com/HiLetgo-Controller-Stepper-H-Bridge-Mega2560/dp/B07BK1QL5T/ref=sr_1_3?crid=4NEFIC8NA4KP&keywords=motor+driver&qid=1691435867&sprefix=motor+drive%2Caps%2C187&sr=8-3/"> Link </a> |
+| Water Pump and Tube | Pumps water into the plant | $13.99 for 3 water pumps and a 3M clear tube | <a href="https://www.amazon.com/WayinTop-Submersible-Flexible-Fountain-Aquarium/dp/B07TMW5CDM/ref=sr_1_9?crid=353UILCI8X8IG&keywords=water+pump+arduino&qid=1691435965&sprefix=water+pump+arduin%2Caps%2C184&sr=8-9/"> Link </a> |
+| Jumper Wires | Used to make connections between breadboard and Arduino | $9.99 for 40 pc each of male to male, female to male, and femae to female jumper wires | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_1?crid=37O70JSZ4EBKG&keywords=male%2Bto%2Bmale%2Band%2Bfemale%2Bto%2Bmale%2Bjumper%2Bwire%2Bkit&qid=1691436050&sprefix=male%2Bto%2Bmale%2Band%2Bfemale%2Bto%2Bmale%2Bjumper%2Bwire%2Bkit%2Caps%2C159&sr=8-1&th=1/"> Link </a> |
+| Buzzers | Sounds when plant reaches a certain soil moisture | $5.99 for 10 pc | <a href="https://www.amazon.com/Cylewet-Terminals-Electronic-Electromagnetic-Impedance/dp/B01NCOXB2Q/ref=sr_1_11?crid=3B3AZZLOFH82E&keywords=led+and+buzzer+arduino&qid=1691436183&sprefix=led+and+buzzer+arduin%2Caps%2C204&sr=8-11/"> Link </a> |
+| LED Lights | Lights up when plant reaches a certain soil moisture | $5.99 for 60 pc | <a href="https://www.amazon.com/Diffused-Lighting-Electronics-Components-Emitting/dp/B01C3ZZT2I/ref=sr_1_6?crid=35B1Q0E276U0B&keywords=led%2Barduino&qid=1691436280&sprefix=led%2Barduino%2Caps%2C192&sr=8-6&th=1/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
