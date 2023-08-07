@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Alison L | Cupertino High School | Software Engineering/Product Design | Incoming Sophomore
+| Alison L | Cupertino High School | Computer Science/Product Design | Incoming Sophomore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -250,6 +250,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Elegoo Uno R3 Board with USB Cable | Microcontroller | $15.99 | <a href="[https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?keywords=elegoo+uno+r3+board&qid=1690488175&sr=8-3](https://www.amazon.com/ELEGOO-Controller-ATmega328P-Compatible-Arduino/dp/B0B6VV7MS7/ref=sr_1_4?keywords=elegoo+uno+r3+board&qid=1690488247&sr=8-4)/"> Link </a> |
 | Solderless Breadboards | Base for all the components | $9.99 for 4pc | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6](https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH/ref=sr_1_3?crid=1KRC08FNZVCYJ&keywords=breadboard&qid=1690488491&sprefix=breadboar%2Caps%2C198&sr=8-3)/"> Link </a> |
 | ESP8266 Module | Enables the microcontroller to connect to WiFi | $8.99 for 3 pc | <a href="https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH/ref=sr_1_3?crid=1KRC08FNZVCYJ&keywords=breadboard&qid=1690488491&sprefix=breadboar%2Caps%2C198&sr=8-3/"> Link </a> |
+| Soil Moisture Sensor | Sensor to track the plant's soil moisutre | $11.99 for 5 pc | <a href="https://www.amazon.com/Capacitive-Moisture-Corrosion-Resistant-Detection/dp/B07SYBSHGX/ref=sr_1_16?crid=1BVQIFJEXQ443&keywords=soil+moisture+sensor&qid=1691435304&sprefix=soil+moisutre+senso%2Caps%2C167&sr=8-16/"> Link </a> |
+| DHT11 Humidity Sensor | Sensor to track the temperature and humidity of the room | $9.99 for 5 pc | <a href="https://www.amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0/ref=sr_1_3?crid=1QIFNX5NG5UNO&keywords=dht11+temperature+and+humidity+sensor&qid=1691435425&sprefix=dht11%2Caps%2C214&sr=8-3/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
