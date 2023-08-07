@@ -43,18 +43,201 @@ My first milestone was first building my circuit and making sure that all the ne
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
+Below is the main code used to send all the data collected from the sensors to Blynk:
 ```c++
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
+
+#define BLYNK_PRINT Serial
+
+#include <ESP8266_Lib.h>
+#include <BlynkSimpleShieldEsp8266.h>
+
+char auth[] = BLYNK_AUTH_TOKEN;
+char ssid[] = "ssid";
+char pass[] = "password";
+
+#include <SoftwareSerial.h>
+SoftwareSerial EspSerial(2, 3); // RX, TX
+
+#define ESP8266_BAUD 9600
+ESP8266 wifi(&EspSerial);
+
+#include <DHT.h>
+#define DHTPIN 4       // The pin connected to the DHT11 sensor
+#define DHTTYPE DHT11  // DHT 11
+DHT dht(DHTPIN, DHTTYPE);
+
+#define lightPin A0
+#define moisturePin A1
+#define pumpA 8
+
+double roomHumidity = 0;
+double roomTemperature = 0;
+
+BlynkTimer timer;
+
+BLYNK_WRITE(V0)
+{
+  if (param.asInt() == 1) {
+    digitalWrite(pumpA, HIGH);
+  } else {
+    digitalWrite(pumpA, LOW);
+  }
+}
+
+int readMoisture() {
+  return analogRead(moisturePin);
+}
+
+int readLight() {
+  return analogRead(lightPin);
+}
+
+void readDHT() {
+  roomHumidity = dht.readHumidity();
+  roomTemperature = dht.readTemperature();
+}
+
+void myTimerEvent()
+{
+  readDHT();
+  int light = readLight();
+  int moisture = readMoisture();
+
+  if (!isnan(roomHumidity) && !isnan(roomTemperature)) {
+    Serial.print("Humidity: ");
+    Serial.print(roomHumidity);
+    Serial.print(" %\t");
+    Serial.print("Temperature: ");
+    Serial.print(roomTemperature);
+    Serial.println(" *C");
+    
+    Blynk.virtualWrite(V4, roomHumidity);
+    Blynk.virtualWrite(V5, roomTemperature);
+  }
+  Blynk.virtualWrite(V6, light);
+  Blynk.virtualWrite(V7, moisture);
+}
+
+void alert(){
+  const int buzzerPin = 10; // Change this to the desired digital pin
+const int ledPin = 9;  // Change this to the desired digital pin for the LED
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Sound the buzzer with a frequency of 1000 Hz for 500 milliseconds (0.5 seconds)
+  tone(buzzerPin, 1000);
+  delay(500);
+  
+  // Silence the buzzer for 500 milliseconds
+  noTone(buzzerPin);
+  delay(500);
+    for (int brightness = 0; brightness <= 255; brightness++) {
+    analogWrite(ledPin, brightness);
+    delay(10); // Adjust the delay time to control the speed of the glow
+}
+  for (int brightness = 255; brightness >= 0; brightness--) {
+    analogWrite(ledPin, brightness);
+    delay(10); // Adjust the delay time to control the speed of the glow
+  }
+}
 
+void setup()
+{
+  // Debug console
+  Serial.begin(115200);
+
+  dht.begin(); // Initialize DHT sensor
+
+  EspSerial.begin(ESP8266_BAUD);
+  delay(10);
+
+  Blynk.begin(auth, wifi, ssid, pass);
+
+  timer.setInterval(1000L, myTimerEvent);
+
+  pinMode(pumpA, OUTPUT);
+}
+
+void loop()
+{
+  Blynk.run();
+  timer.run(); // Initiates BlynkTimer
+}
+
+
+```
+Here is the code I used to test the DHT11 humidity and temperature sensor:
+```c++
+#include "DHT.h"
+
+#define DHTPIN 4  // The pin connected to the DHT11 sensor
+
+// Uncomment the type of sensor in use:
+#define DHTTYPE DHT11   // DHT 11 
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600); 
+  Serial.println("DHTxx test!");
+
+  dht.begin();
+}
+
+void loop() {
+  // Wait a few seconds between measurements
+  delay(2000);
+
+  // Reading temperature or humidity takes about 250 milliseconds!
+  float h = dht.readHumidity();
+  // Read temperature as Celsius (the default)
+  float t = dht.readTemperature();
+
+  // Check if any reads failed and exit early (to try again)
+  if (isnan(h) || isnan(t)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+
+  Serial.print("Humidity: "); 
+  Serial.print(h);
+  Serial.print(" %\t");
+  Serial.print("Temperature: "); 
+  Serial.print(t);
+  Serial.println(" *C");
+}
+
+```
+Here is the code I used to test the soil moisture sensor and the photoresister:
+```c++
+const int soilMoisturePin = A1; // Connect the capacitive soil moisture sensor to analog pin A0
+const int photoResistorPin = A0; // Connect the photoresistor to analog pin A1
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Read soil moisture value
+  int soilMoistureValue = analogRead(soilMoisturePin);
+  int moisturePercentage = map(soilMoistureValue, 0, 1023, 0, 100);
+  Serial.print("Soil Moisture Percentage: ");
+  Serial.print(moisturePercentage);
+  Serial.println("%");
+
+  // Read illumination value
+  int illuminationValue = analogRead(photoResistorPin);
+  Serial.print("Illumination Value: ");
+  Serial.println(illuminationValue);
+
+  delay(1000); // Delay between readings, adjust as needed
 }
 ```
 
