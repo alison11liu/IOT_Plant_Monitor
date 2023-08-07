@@ -254,9 +254,5 @@ void loop() {
 | LED Lights | Lights up when plant reaches a certain soil moisture | $5.99 for 60 pc | <a href="https://www.amazon.com/Diffused-Lighting-Electronics-Components-Emitting/dp/B01C3ZZT2I/ref=sr_1_6?crid=35B1Q0E276U0B&keywords=led%2Barduino&qid=1691436280&sprefix=led%2Barduino%2Caps%2C192&sr=8-6&th=1/"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+- [Sunfounder Tutorial](https://docs.sunfounder.com/projects/3in1-kit/en/latest/iot_project/iot_plant_monitor.html/)
