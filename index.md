@@ -30,7 +30,7 @@ My second milestone was mostly getting familiar with Blynk and using the Arduino
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EaS2zfYnJ8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My first milestone was first building my circuit and making sure that all the necessary parts were wired correctly. Then, I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. A problem I faced was that my ESP8266 chip could not be plugged directly into the breadboard, so I had to order an adapter for it. It was very frustrating and took a lot of time get the wifi module to work, but with help I managed to get it to work and then I could continue with my project.
 
