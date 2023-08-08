@@ -7,8 +7,8 @@ This project is essentially a smart watering system that can detect the current 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Photo of myself](IMG_5211.jpg)
-![Photo of my project](IMG_6460.jpeg)
+<img src="IMG_5211.jpg" alt="Photo of myself" height="400"/>
+<img src="IMG_6460.jpeg" alt="Photo of my project" height="400"/>
   
 # Final Milestone
 
