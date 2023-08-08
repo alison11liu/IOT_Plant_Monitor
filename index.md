@@ -5,16 +5,12 @@ This project is essentially a smart watering system that can detect the current 
 |:--:|:--:|:--:|:--:|
 | Alison L | Cupertino High School | Computer Science/Product Design | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 <img src="IMG_5211.jpg" alt="Photo of myself" height="400"/>
 <img src="IMG_6460.jpeg" alt="Photo of my project" height="400"/>
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lxEfGw3KKcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p-3qgQoB23s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My final milestone was finishing everything up and making a setup that can not only track the plant's information but also pump water into the plant. I had to order a tube that can connect to the water pump to be able to carry water from a bowl of water into the plant itself. My motor would not work for the longest time because I had been powering my board with 3.3 volts because that was the amount the ESP8266 required, except my motor need 5 volts. So, once I plugged the wire that was connecting the VCC in the motor driver board to 5 volts in the arduino, my motor worked and could pump water into my plant. A modification I did for this project was using a LED and a buzzer to notify me when the soil was too dry. After wiring the LED and the buzzer up, I edited my code that would get the LED to light up and the buzzer to sound whenever the soil moisture was too dry. Something I noticed was that the higher the number being displayed for soil moisture meant the drier the soil instead of the other way around. So, in the code I had to write that whenever the soil moisture is greater than a certain amount, the LED would flash and the buzzer would sound. 
 
