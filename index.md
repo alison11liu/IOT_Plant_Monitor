@@ -20,15 +20,11 @@ My final milestone was finishing everything up and making a setup that can not o
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E-fZhIQOPFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My second milestone was mostly getting familiar with Blynk and using the Arduino IDE, as this is my first time using such programs. I started off by connecting my Arduino board to Blynk, then I started adding virtual pins into my Blynk dashboard. A big step I took for my project was actually trying it out. I inputted code into the Arduino IDE, then I put my soil moisture sensor in a plant and had the temperature, humidity, soil moisture etc. data to be displayed on Blynk. You are also able to turn on the water pump by pressing the on and off button on the Blynk dashboard. The main issue that I had to fix for this milestone was getting my Arduino Uno online in Blynk, which was mostly due to my ESP8266 wifi module.
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EaS2zfYnJ8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
