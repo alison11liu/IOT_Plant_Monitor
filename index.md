@@ -5,8 +5,8 @@ This project is essentially a smart watering system that can detect the current 
 |:--:|:--:|:--:|:--:|
 | Alison L | Cupertino High School | Computer Science/Product Design | Incoming Sophomore
 
-<img src="IMG_5211.jpg" alt="Photo of myself" height="400"/>
-<img src="IMG_6460.jpeg" alt="Photo of my project" height="400"/>
+<img src="IMG_5211.jpg" alt="Photo of myself" height="300"/>
+<img src="IMG_6460.jpeg" alt="Photo of my project" height="500"/>
   
 # Final Milestone
 
@@ -27,7 +27,7 @@ My second milestone was mostly getting familiar with Blynk and using the Arduino
 My first milestone was first building my circuit and making sure that all the necessary parts were wired correctly. Then, I made sure that my soil moisture sensor and my humidity and temperature sensor worked by plugging my board into my computer, then I imputted code into the Arduino IDE that would display the temperature, humidity, and soil moisture on the serial monitor. A problem I faced was that my ESP8266 chip could not be plugged directly into the breadboard, so I had to order an adapter for it. It was very frustrating and took a lot of time get the wifi module to work, but with help I managed to get it to work and then I could continue with my project.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<img src="IMG_5761.png" alt="Schematic" height="500"/>
 
 # Code
 Below is the main code used to send all the data collected from the sensors to Blynk:
