@@ -244,7 +244,3 @@ void loop() {
 | Jumper Wires | Used to make connections between breadboard and Arduino | $9.99 for 40 pc each of male to male, female to male, and femae to female jumper wires | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_1?crid=37O70JSZ4EBKG&keywords=male%2Bto%2Bmale%2Band%2Bfemale%2Bto%2Bmale%2Bjumper%2Bwire%2Bkit&qid=1691436050&sprefix=male%2Bto%2Bmale%2Band%2Bfemale%2Bto%2Bmale%2Bjumper%2Bwire%2Bkit%2Caps%2C159&sr=8-1&th=1/"> Link </a> |
 | Buzzers | Sounds when plant reaches a certain soil moisture | $5.99 for 10 pc | <a href="https://www.amazon.com/Cylewet-Terminals-Electronic-Electromagnetic-Impedance/dp/B01NCOXB2Q/ref=sr_1_11?crid=3B3AZZLOFH82E&keywords=led+and+buzzer+arduino&qid=1691436183&sprefix=led+and+buzzer+arduin%2Caps%2C204&sr=8-11/"> Link </a> |
 | LED Lights | Lights up when plant reaches a certain soil moisture | $5.99 for 60 pc | <a href="https://www.amazon.com/Diffused-Lighting-Electronics-Components-Emitting/dp/B01C3ZZT2I/ref=sr_1_6?crid=35B1Q0E276U0B&keywords=led%2Barduino&qid=1691436280&sprefix=led%2Barduino%2Caps%2C192&sr=8-6&th=1/"> Link </a> |
-
-# Other Resources/Examples
-
-- [Sunfounder Tutorial](docs.sunfounder.com/projects/3in1-kit/en/latest/iot_project/iot_plant_monitor.html/)
