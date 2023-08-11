@@ -247,4 +247,4 @@ void loop() {
 
 # Other Resources/Examples
 
-- [Sunfounder Tutorial](https://docs.sunfounder.com/projects/3in1-kit/en/latest/iot_project/iot_plant_monitor.html/)
+- [Sunfounder Tutorial](docs.sunfounder.com/projects/3in1-kit/en/latest/iot_project/iot_plant_monitor.html/)
